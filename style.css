@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color:  lightslategray 
+}
+
+h1{
+    width: 100vw;
+    height: 15vh;
+    color: rgb(41, 41, 41);
+    background-color: #e0ddda;
+    font-family: "Bebas Neue";
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 4rem;
+    border-bottom: solid rgb(41, 41, 41) 2px;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#contenedorTabla{
+    margin-top: 50px;
+    width: 70%;
+    
+}
+
+#contedorCarrito{
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: lightgrey;
+    border: solid rgb(41, 41, 41) 3px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#tituloTotal{
+    margin-left: 10px;
+}
+
+#contenedorTotal{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+table{
+    table-layout: fixed;
+    text-align:left;
+    width: 100%;
+}
+
+thead{
+    background-color: gainsboro;
+}
+
+th
+{
+  padding: 20px;
+  border-bottom: 3px solid gainsboro;
+  
+
+}
+
+tr, td {
+    padding: 20px;
+    border-bottom: 2px solid gainsboro;
+}
+
+.tituloProducto
+{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.contenedorCantidad
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+input
+{
+    padding: 10px;
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: solid black 0.5px;
+}
+
+#productosCarrito{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lineaCompra{
+    padding: 10px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
